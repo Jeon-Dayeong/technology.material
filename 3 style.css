@@ -1,0 +1,113 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: 'Gugi', cursive;
+}
+.subtitle{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+    font-family: 'Gugi', cursive;
+    color: gray;
+}
+
+.menu_wrap .dep1 {
+    font-size: 0;
+}
+.menu_wrap .dep1 >li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    font-family: 'Gugi', cursive;
+}
+.menu_wrap .dep1 >li >a{
+    display: block;
+    padding: 7px 0;
+    color: rgb(104, 255, 235);
+    background: black;
+    font-size: 20px;
+}
+.menu_wrap .dep1 >li:hover > .dep2{
+    display: block;
+}
+.menu_wrap .dep2 >li{
+    background: rgba(0, 0, 0, 0.591);
+    padding: 3px;
+}
+.menu_wrap .dep2 >li >a{
+    color: rgb(104, 255, 235);
+    font-size: 17px;
+}
+.menu_wrap .dep2 a:hover{
+    text-decoration: underline;
+}
+.menu_wrap .dep2{
+    display: none;
+}
+
+.footer{
+    padding: 20px 0;
+    width: auto;
+    background-color: black;
+    margin-left: 0;
+    }
+    .indexhome{
+        background-color: black;
+        text-align: center;
+    }
+    .indexhome >a{
+        color: white;
+        text-align: center;
+        background-color: black;
+        font-family: 'Noto Serif KR', serif;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+.footer >p{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+
+.maincontent{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    font-family: 'Noto Serif KR', serif;
+    margin-bottom: 150px;
+    font-size: 10px;
+    line-height: 30px;
+}
+.news2{
+    margin-top: 150px;
+}
+.news3{
+    margin-top: 150px;
+}
+.news4{
+    margin-top: 150px;
+}
+.news5{
+    margin-top: 150px;
+}
+.news6{
+    margin-top: 150px;
+}
+.news7{
+    margin-top: 150px;
+}
